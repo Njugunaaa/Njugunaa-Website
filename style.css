@@ -1,3 +1,42 @@
 body {
-  background: blue;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  background-image: url('https://images.pexels.com/photos/3182773/pexels-photo-3182773.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-size: cover;
+  background-position: center;
+  color: #962626;
+}
+header, section {
+  width: 80%;
+  max-width: 600px;
+  margin: 20px 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  border-radius: 10px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+input, textarea, button {
+  margin-bottom: 10px;
+  padding: 8px;
+  font-size: 16px;
+}
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #45a049;
+}
+#comments ul {
+  list-style: none;
+  padding: 0;
 }
